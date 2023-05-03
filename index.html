@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/container.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Kalkulator Walut</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    Kalkulator Walut
+                </legend>
+            <p>
+                <label>
+                    <span class="form__labelText">Kwota w zł*:</span>
+                    <input class="form__field js-amount" type="number" name="value" required placeholder="Mam" step="0,01">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">Waluta:</span>
+                        <select class="form__field js-currency" name="Currency">
+                            <option title="Euro" value="EUR">EUR</option>
+                            <option title="Dolar Amerykański" value="USD">USD</option>
+                            <option title="Funt Brytyjski" value="GBP">GBP</option>
+                            <option title="Frank Szwajcarski" value="CHF">CHF</option>
+                    </select>
+                </label>
+            </p>
+            </fieldset>
+            <p>
+                <button class="form__button">Przelicz</button>
+            </p>
+            <p>
+                <strong class="js-result">N/A</strong>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
