@@ -5,6 +5,7 @@
 https://krystian22frontend.github.io/CurencyConventer/
 
 ## Opis
-Prosty kalkulator walut. Posiada od góry przypisane wartości kilku walut na dzień 02.05.2023.
-Wygodny w użyciu oraz bardzo czytelny.
-Zastosowana została w nim konwecja BEM.
+Simple currency conventer. Values of the currencies are taken from cinkciarz.pl, on a day 02.05.2023.
+Used technologies:
+- BEM
+- Java Script
