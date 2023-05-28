@@ -9,3 +9,5 @@ Simple currency conventer. Values of the currencies are taken from cinkciarz.pl,
 Used technologies:
 - BEM
 - Java Script
+
+![BMWPage](images/page.png)
