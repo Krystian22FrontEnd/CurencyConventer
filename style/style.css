@@ -10,6 +10,9 @@ html {
 
 body {
     font-family: "Lato", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/background.jpg");
 }
 
 .form__fieldset{
@@ -33,6 +36,7 @@ body {
     padding: 0px 20px;
     max-width: 200px;
     width: 100%;
+    color: black;
 }
 
 .form__field{
@@ -58,4 +62,12 @@ body {
 
 .form__button:active {
     background-color: #f7ad68;
+}
+
+.js-result{
+    color: black;
+}
+
+.paragraph{
+    padding-bottom: 20px;
 }
