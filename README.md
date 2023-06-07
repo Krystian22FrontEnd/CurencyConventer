@@ -11,6 +11,8 @@ Simple currency conventer. Values of the currencies are taken from cinkciarz.pl,
     GBP = 5.22;
     CHF = 4.66;
 
+![Currency](https://github.com/Krystian22FrontEnd/CurrencyConventer/blob/main/images/Currency.png?raw=true)
+
 Used technologies:
 - BEM
 - Java Script
